@@ -1,37 +1,21 @@
-# Yasar Reza Rahaman — Portfolio Website
+# Yasar Reza Rahaman — Developer Portfolio
 
-A responsive, accessible personal portfolio built with **HTML, CSS and vanilla JavaScript**. No framework, package installation, API keys, or build step required.
+A modern, responsive, accessible static portfolio for a full-stack developer, designed around practical project stories and clear contact paths.
 
-## Quick start
+## Site
 
-1. Extract the ZIP.
-2. Open `index.html` directly in your browser.
-3. For development, serve this folder using VS Code Live Server or run `python -m http.server 8080` and visit `http://localhost:8080`.
+Production: https://yasar-reza-rahaman-portfolio.onrender.com
 
-## Features
+No build tooling is required. Serve the directory as static files (Render: publish directory `./`, build command `echo 'Static site ready'`). Open `index.html` to preview locally.
 
-- Premium responsive dark/light theme, with remembered preference.
-- Project filters and detailed interactive case-study dialogs.
-- Real GitHub repository links (no links to private work).
-- Career timeline, categorized skills, and education details.
-- LinkedIn/GitHub contact links, mailto CTA, and email copy action.
-- Original résumé PDF included under `assets/`.
-- Basic SEO/Open Graph metadata and schema.org Person data.
-- Mobile navigation and keyboard-accessible controls.
+## What's included
 
-## Updating your details
+- Seven project stories, filtering and accessible detail dialog
+- Responsive layouts for desktop, tablet and mobile
+- Professional experience, stack, about and contact sections
+- Illustrative project mockups generated from scratch with sample data
+- No résumé-download CTA, tracker, API key or contact-form backend
 
-- **Projects:** Edit the `projects` array at the start of `app.js`. Projects with `github: null` display as professional case studies without a repository link.
-- **Experience, skills, intro, and email:** Edit `index.html`.
-- **Visual theme and layout:** Edit `styles.css`.
-- **Résumé:** Replace `assets/Yasar_Reza_Rahaman_Resume.pdf` with the current file.
+**Important:** Project images are conceptual interface illustrations, not screenshots of the original customer platforms. Replace them with approved authentic screenshots if available; do not publish customer data without authorization.
 
-## Publishing
-
-This is a static site. Publish the extracted folder to GitHub Pages, Netlify, Vercel, or any static host. Set the publish directory to the repository root; there is no build command.
-
-## Source notes
-
-Profile content was prepared from the user's saved recruiter résumé, public LinkedIn profile (`linkedin.com/in/yasar5`), public GitHub account (`github.com/Yasar75`), and previous project descriptions supplied by the user. Years of experience are intentionally written as 4.5+ to match the résumé rather than as an auto-calculated number. Public project art is **conceptual illustration** rather than product screenshots. The public portfolio intentionally omits personal telephone numbers and internal/private source details. The résumé PDF, however, contains the original contact information and has not been modified.
-
-Professional experience and project details should be reviewed by the owner before publication; project names and descriptions are intended as brief, non-confidential summaries.
+Content is adapted from the owner's supplied professional résumé and publicly known repositories. Edit `index.html` and `app.js` to update copy and project details.
